@@ -30,6 +30,9 @@ dependencies {
 	testImplementation("org.junit.vintage:junit-vintage-engine") {
 		exclude group: "org.hamcrest", module: "hamcrest-core"
 	}
+	implementation 'io.github.flashvayne:chatgpt-spring-boot-starter:1.0.4'
+	implementation 'org.springframework.boot:spring-boot-starter-json'
+	implementation 'org.json:json:20210307'
 }
 
 tasks.named('test') {
